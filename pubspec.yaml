@@ -1,0 +1,31 @@
+name: recipe_explorer
+description: A Flutter Recipe Explorer app using BLoC for state management.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+
+  # Optional for persistence (bonus)
+  shared_preferences: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Optional: add assets folder if you plan to use images
+  # assets:
+  #   - assets/images/
